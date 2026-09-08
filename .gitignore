@@ -1,0 +1,14 @@
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Runtime uploads / user data
+uploads/avatars/*
+!uploads/avatars/.htaccess
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
